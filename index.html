@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07040d">
+  <meta name="description" content="الموقع مغلق مؤقتاً لأغراض الصيانة والتطوير">
+  <title>مغلق مؤقتاً | صيانة وتطوير</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="noise"></div>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="grid-overlay"></div>
+
+  <main class="page">
+
+    <nav class="topbar">
+      <div class="brand">
+        <span class="brand-mark">✦</span>
+        <span>NEON // MAINTENANCE</span>
+      </div>
+
+      <div class="status">
+        <span class="status-dot"></span>
+        الموقع تحت الصيانة
+      </div>
+    </nav>
+
+    <section class="maintenance-card">
+
+      <div class="card-topline"></div>
+
+      <!-- إيموجيات عشوائية -->
+      <div class="emoji-cloud emoji-a">
+        <img src="https://cdn.discordapp.com/emojis/1493700678315413596.gif?size=96&quality=lossless" alt="">
+      </div>
+
+      <div class="emoji-cloud emoji-b">
+        <img src="https://cdn.discordapp.com/emojis/1493697793444024420.png?size=96&quality=lossless" alt="">
+      </div>
+
+      <div class="emoji-cloud emoji-c">
+        <img src="https://cdn.discordapp.com/emojis/1081478759527489617.gif?size=96&quality=lossless" alt="">
+      </div>
+
+      <div class="emoji-cloud emoji-d">
+        <img src="https://cdn.discordapp.com/emojis/1081478741886238790.gif?size=96&quality=lossless" alt="">
+      </div>
+
+      <!-- شعار الإغلاق -->
+      <div class="close-emblem">
+        <div class="emblem-ring"></div>
+        <div class="emblem-core">✕</div>
+
+        <img
+          class="heart-emoji"
+          src="https://cdn.discordapp.com/emojis/1392762109292445787.gif?size=128&quality=lossless"
+          alt="قلوب"
+        >
+      </div>
+
+      <p class="eyebrow">
+        <span></span>
+        نرجع لكم قريباً
+        <span></span>
+      </p>
+
+      <h1>الموقع مغلق <span>مؤقتاً</span></h1>
+      <h2>لأغراض الصيانة والتطوير</h2>
+
+      <p class="description">
+        نشتغل خلف الكواليس حتى نرجع لكم بتجربة أفضل،
+        أسرع، وأقوى. خلكم قريبين!
+      </p>
+
+      <!-- العبارات والإيموجيات -->
+      <div class="message-strip">
+        <span>يا قونرز</span>
+
+        <img
+          src="https://cdn.discordapp.com/emojis/1560718780659671040.gif?size=96&quality=lossless"
+          alt=""
+        >
+
+        <span class="strip-divider"></span>
+
+        <span>بيجي تطوير زيادة يقوي محنتكم</span>
+
+        <img
+          src="https://cdn.discordapp.com/emojis/1560719397788721242.gif?size=96&quality=lossless"
+          alt=""
+        >
+      </div>
+
+      <!-- عرض الديسكورد -->
+      <div class="discord-promo">
+
+        <div class="promo-badge">
+          <span class="promo-dot"></span>
+          عرض المجتمع
+        </div>
+
+        <h3>تبي مميزات ومحنة وجلخ؟</h3>
+
+        <p>
+          تعال ديسكورد حقنا!
+          افتح لك عالم جديد مع
+          <strong>119 روم للتجليخ</strong>
+          بسعر
+          <strong class="price">10$ فقط</strong>.
+        </p>
+
+        <div class="promo-perks">
+          <span><b>119</b> روم</span>
+          <span class="perk-separator"></span>
+          <span><b>$10</b> فقط</span>
+          <span class="perk-separator"></span>
+          <span>الدفع عبر <b>LikeCard</b></span>
+        </div>
+
+        <a
+          class="discord-button"
+          id="discordLink"
+          href="https://discord.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="discord-icon">◈</span>
+          <span>انضم إلى ديسكورد</span>
+          <span class="button-arrow">←</span>
+        </a>
+
+        <p class="link-hint">
+          عدّل رابط الزر في ملف script.js وضع رابط دعوة سيرفرك.
+        </p>
+
+      </div>
+
+      <!-- شريط حركة تجميلي -->
+      <div class="progress-area">
+        <div class="progress-label">
+          <span>جاري تجهيز التحديثات</span>
+          <span class="loading-text">نجهّز المفاجآت...</span>
+        </div>
+
+        <div class="progress-track">
+          <div class="progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="footer-note">
+        <span class="footer-spark">✦</span>
+        <span>شكراً لصبركم — العودة بتكون تستاهل</span>
+        <span class="footer-spark">✦</span>
+      </div>
+
+    </section>
+
+    <footer class="bottom">
+      <span>© <span id="year"></span> — جميع الحقوق محفوظة</span>
+      <span class="bottom-divider"></span>
+      <span>MADE WITH <b>♥</b> FOR THE COMMUNITY</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
